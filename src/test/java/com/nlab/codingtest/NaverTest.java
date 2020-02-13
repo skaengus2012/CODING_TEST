@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
- *  2018. 3. 4..
+ * 2018.03.04 에 출제된 테스트
  *
  * @author Doohyun
  */
