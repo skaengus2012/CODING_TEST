@@ -47,7 +47,7 @@ public class CoupangTest {
 
     private int target;
 
-    private static int[] expectedResult = new int[] {0, 1};
+    private int[] expectedResult;
 
     private static final int NOT_FOUND_INDEX = -1;
 
@@ -55,6 +55,7 @@ public class CoupangTest {
     public void initializeUnit() {
         nums = new int[]{ 2, 7, 11, 5 };
         target = 9;
+        expectedResult = new int[] {0, 1};
     }
 
     @Test
